@@ -8,7 +8,7 @@ require 'capybara'
 require 'capybara/cucumber'
 require 'rspec'
 
-Capybara.app = bookmark_manager
+Capybara.app = BookmarkManager
 
 class bookmark_managerWorld
   include Capybara::DSL
