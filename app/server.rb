@@ -1,10 +1,11 @@
 require 'sinatra/base'
 require 'data_mapper'
 require './app/helpers/application.rb'
-require './lib/link'
-require './lib/tag'
-require './lib/user'
+require './app/models/link'
+require './app/models/tag'
+require './app/models/user'
 require 'rack-flash'
+# require 'sinatra-partial'
 
 class BookmarkManager < Sinatra::Base
 
